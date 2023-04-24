@@ -1,0 +1,54 @@
+nav .dropdown {
+    position: static;
+}
+
+nav .dropdown-menu[data-bs-popper] {
+    width: 100%;
+    margin-top: 0;
+}
+
+nav .dropdown-menu {
+    border: none;
+    border-radius: 0;
+}
+
+nav .dropdown-menu.show {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.returnal-main {
+    display: block;
+    position: relative;
+}
+.returnal-over {
+    position: absolute;
+    align-self: flex-end;
+}
+.takes-main {
+    display: block;
+    position: relative;
+}
+.takes-over {
+    position: absolute;
+    align-self: flex-end;
+}
+body {
+    overflow-x: hidden;
+}
+.sfondo-plus {
+    background-color: rgb(190, 188, 187);
+}
+
+.sfondo-now {
+    background-color: rgb(22, 28, 59);
+}
+
+footer {
+    background-color: rgb(0, 67, 156);
+}
+li {
+    list-style: none;
+}
+
