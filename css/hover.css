@@ -1,0 +1,25 @@
+.tra-y:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.brd-h:hover {
+  border-color: #e2e2e2;
+  box-shadow: 3px 3px 3px 3px #b8b8b8;
+}
+.bordo:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.social:hover {
+    cursor: pointer;
+}
+.dropdown-item:hover {
+color: #0d80fe;
+background-color: white;
+}
+.btn:hover {
+    outline-style: solid;
+    outline-width: 2px;
+    outline-offset: 1px;
+    outline-color: rgb(187, 45, 59);
+}

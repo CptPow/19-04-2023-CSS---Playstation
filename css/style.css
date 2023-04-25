@@ -50,5 +50,24 @@ footer {
 }
 li {
     list-style: none;
+    cursor: pointer;
 }
+.bordo {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+.over-bordo {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    border: 2px solid #1068bc;
+    border-radius: 2px;
+}
+
 
